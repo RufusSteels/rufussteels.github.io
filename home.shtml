@@ -17,9 +17,9 @@
             <header><!-- Top side of the page-->
                 <table width="100%">
                     <!-- <tr>
-                        <td width="250px"><a class="left headertext" href="index.shtml">RUFUS STEELS</a></td>
+                        <td width="250px"><a class="left headertext" href="home.shtml">RUFUS STEELS</a></td>
                         <td></td>
-                        <td width="250px"><a class="right" href="index.shtml"><img class="logo" type="image/png" src="Images/Logo.png"></a></td>
+                        <td width="250px"><a class="right" href="home.shtml"><img class="logo" type="image/png" src="Images/Logo.png"></a></td>
                     </tr> -->
                     <tr>
                         <td colspan="3">
@@ -38,7 +38,7 @@
                         <td colspan="3">
                             <div class="banner">
                                 <ul style="float: left;">
-                                    <li><a href="index.shtml" style="color: rgb(100, 220, 200);">HOME</a></li>
+                                    <li><a href="home.shtml" style="color: rgb(100, 220, 200);">HOME</a></li>
                                     <li><a href="about.shtml">ABOUT</a></li>
                                     <li><a href="portfolio.shtml">PORTFOLIO</a></li>
                                     <li><a href="skills.shtml">SKILLS</a></li>
