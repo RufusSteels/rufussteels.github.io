@@ -1,0 +1,109 @@
+<html>
+    <head>
+        <title>Project Home</title>
+        
+        <link rel="stylesheet" href="style.css">    
+        <link rel="icon" type="image/png" href="Images/Logo.png">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+
+        <meta charset="UTF-8">
+        <meta name="description" content="Project Home">
+        <meta name="keywords" content="Domotics">
+        <meta name="author" content="Rufus Steels">
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    </head>
+    <body height="100%">
+        <div class="grid-container">
+            <header><!-- Top side of the page-->
+                <table width="100%">
+                    <tr>
+                        <td width="250px"><a class="left headertext" href="home.shtml">RUFUS STEELS</a></td>
+                        <td></td>
+                        <td width="250px"><a class="right" href="home.shtml"><img class="logo" type="image/png" src="Images/Logo.png"></a></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <div class="banner">
+                                <ul style="float: left;">
+                                    <li><a href="home.shtml">HOME</a></li>
+                                    <li><a href="about.shtml" style="color: rgb(100, 220, 200);">ABOUT</a></li>
+                                    <li><a href="portfolio.shtml">PORTFOLIO</a></li>
+                                    <li><a href="skills.shtml">SKILLS</a></li>
+                                    <li><a href="contact.shtml">CONTACT</a></li>
+                                </ul>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </header>
+
+            <div><!-- Left side of the page--></div>
+
+            <div class="page"><!-- Middle of the page, Write content here-->
+                <table>
+                    <tr>
+                        <td colspan="4">
+                            <h1>About</h1>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">
+                            <div class="divider">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 10%;"></td>
+                        <td style="width: 40%;">
+                            <p class="right">
+                                This is a small tryout for a website I am writing in HTML. This feels like a skill that would be kinda nice to have.<br>
+                                I am going to try to recreate my portfolio website as well as I can so I could maybe use this one instead so 
+                                I don't have the WIX banner.
+                            </p>
+                        </td>
+                        <td style="width: 40%;">
+                            <img class="left">
+                        </td>
+                        <td style="width: 10%;"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">
+                            <div class="divider">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 10%;"></td>
+                        <td style="width: 40%;">
+                            <img class="right">
+                        </td>
+                        <td style="width: 40%;">
+                            <p class="left">
+                                This is a small tryout for a website I am writing in HTML. This feels like a skill that would be kinda nice to have.<br>
+                                I am going to try to recreate my portfolio website as well as I can so I could maybe use this one instead so 
+                                I don't have the WIX banner.
+                            </p>
+                        </td>
+                        <td style="width: 10%;"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">
+                            <div class="divider">
+                        </td>
+                    </tr>
+                </table>
+                <hr>
+            </div>
+
+            <div><!-- Right side of the page--></div>
+
+            <footer><!-- Bottom side of the page-->
+                <table width="100%">
+                    <tr style="height: 50px;">
+                        <td width="250px"><a class="left footertext">RUFUS STEELS</a></td>
+                        <td></td>
+                        <td width="250px"><a class="right footertext">RUFUSSTEELS@GMAIL.COM</a></td>
+                    </tr>
+                </table>
+            </footer>
+        </div>
+    </body>
+</html>
