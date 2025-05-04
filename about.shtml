@@ -25,7 +25,7 @@
                         <td colspan="3">
                             <div class="banner">
                                 <ul style="float: left;">
-                                    <li><a href="index.shtml" style="color: rgb(100, 220, 200);">HOME</a></li>
+                                    <li><a href="index.shtml">HOME</a></li>
                                     <li><a href="about.shtml" style="color: rgb(100, 220, 200);">ABOUT</a></li>
                                     <li><a href="portfolio.shtml">PORTFOLIO</a></li>
                                     <li><a href="skills.shtml">SKILLS</a></li>
