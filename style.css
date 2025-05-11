@@ -44,6 +44,18 @@ video {
     color: rgb(32, 49, 47);
 }
 
+.overlay-portfolio {
+    position: absolute;
+    left:55%;
+    top:2.5%;
+    font-size: 2em;
+    color: whitesmoke;
+}
+
+.subtitle-portfolio {
+    font-size: 1rem;
+}
+
 /* LAYOUT */
 
 .header-container {
@@ -57,9 +69,23 @@ video {
     position: relative;
 }
 
+.video-container-portfolio {
+    overflow: hidden;
+    max-height:40%; 
+    margin-top:.5em; 
+    margin-bottom:1.5em;
+}
+
 .nav-container {
     margin:0;
     padding:.5em 0;
+    width: 100%;
+    background-image: linear-gradient(rgb(32, 48, 48), rgb(28, 40, 40), rgb(32, 48, 48));
+}
+
+.header-divider {
+    margin:0;
+    padding:1.25em 0;
     width: 100%;
     background-image: linear-gradient(rgb(32, 48, 48), rgb(28, 40, 40), rgb(32, 48, 48));
 }
