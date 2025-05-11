@@ -4,7 +4,7 @@
         
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200"> 
-        <link rel="icon" type="image/png" href="Images/Logo.png">
+        <link rel="icon" type="image/png" href="Images/Common/Logo.png">
 
         <meta charset="UTF-8">
         <meta name="description" content="Rufus Steels - Portfolio Website">
@@ -19,7 +19,7 @@
                     <p class="title" ><a href="index.html">RUFUS STEELS</a></p>
                 </div>
                 <div class="flex-item flex-item-1">
-                    <a class="logo-container" href="index.html"><img class="logo right" type="image/png" src="Images/Logo.png"></a>
+                    <a class="logo-container" href="index.html"><img class="logo right" type="image/png" src="Images/Common/Logo.png"></a>
                 </div>
             </div>
         </header>
@@ -32,53 +32,181 @@
                 <!-- <li><a class="nav-item" href="contact.html">CONTACT</a></li> -->
             </ul>
         </section>
-        <section>
-            <div class="video-container">
-                <div class="overlay-portfolio">
-                    <h1>Portfolio</h1>
-                    <p class="subtitle-portfolio">
-                        This is the page where you can see some of my work.<br>
-                        Of course there is more to be seen, but these are some <br>
-                        of the projects that I am personally most fond of.
-                    </p>
-                </div>
-                <video src="Videos/Portfolio_Video.mp4" style="height: 50%; object-fit: cover;" muted autoplay loop>
+        <section class="video-container">
+            <div class="overlay-portfolio">
+                <h1>Portfolio</h1>
+                <p class="subtitle-portfolio">
+                    This is the page where you can see some of my work.<br>
+                    Of course there is more to be seen, but these are some <br>
+                    of the projects that I am personally most fond of.
+                </p>
             </div>
+            <video src="Videos/Forgotten_Technology.mp4" style="height: 50%; object-fit: cover;" muted autoplay loop>
         </section>
-        <section class="header-divider"></section>
+        <div class="header-divider"></div> <!-- DIVIDER -->
         <section class="page-container">
-            <div class="flex-container">
+            <div class="flex-container"> <!-- REALISTIC RENDERS -->
                 <div class="flex-item flex-item-2 aside">
-                    <video class="article-visual" src="Videos/Portfolio_Video.mp4" alt="Forgotten Tech" muted autoplay loop>
+                    <img class="article-visual" src="Images/Realistic_Renders/Realistic_Renders_09.png" alt="Realistic Renders" muted autoplay loop>
                 </div>
                 <div class="flex-item flex-item-2 main">
-                    <h2>My work</h2>
-                    <p>I have an interest in both video game programming, as well as in game art. In my portfolio I have some projects you can look at if you are interested. </p>
+                    <h2>Realistic Renders</h2>
+                    <p>
+                        This is my most recent project. Since a lot of the projects on the website are stylised and game related I decided to try realism.<br>
+                        A friend of mine is moving and would like to do some renovations, so for helping him decide on some stuff I tried my hand at making some procedural, 
+                        realistic materials. 
+                    </p>
                 </div>
             </div>
-            <div class="divider"></div>
-            <div class="flex-container">
-                <div class="flex-item flex-item-2 main">
-                    <h2>A bit about me</h2>
-                    <p>
-                        My name is Rufus Steels. <br><br>
+            <div class="divider"></div><!-- DIVIDER -->
 
-                        I finished my three year journey at Howest - Digital Arts and Entertainment in 2023 when I graduated majoring in Independent Game Production. 
-                        This means that I have experience in both Programming and Game Art. 
-                        My interests in these topics are very broad and I am eager to keep on learning about those as much as I can.<br>
-                        
-                        This website primarily serves as a portfolio on the above mentioned subjects.<br><br>
-                        
-                        I also have a large interest in new tech and AI stemming from my background in embedded systems (both hardware and firmware). 
-                        This is also the sector I am currently employed in.
+            <div class="flex-container"> <!-- The Orb -->
+                <div class="flex-item flex-item-2 main">
+                    <h2>The Orb</h2>
+                    <p>
+                        This project is something very different. This is a project in which I wanted to design a special input device. 
+                        I have a background in electronics so the fun thing to do was to combine this background with gaming!<br>
+                        Introducing "The Orb"! A device that replaces your computer mouse in a very unnecessary way! 
                     </p>
                 </div>
                 <div class="flex-item flex-item-2 aside">
-                    <img class="article-visual" src="Images/Profile_Edit.jpg" alt="Profile">
+                    <img class="article-visual" src="Images/The_Orb/The_Orb.png" alt="The Orb">
                 </div>
             </div>
+            <div class="divider"></div><!-- DIVIDER -->
+
+            <div class="flex-container"> <!-- Spacelander -->
+                <div class="flex-item flex-item-2 aside">
+                    <img class="article-visual" src="Images/Spacelander/Spacelander_Exit.gif" alt="Spacelander" muted autoplay loop>
+                </div>
+                <div class="flex-item flex-item-2 main">
+                    <h2>Spacelander</h2>
+                    <p>
+                        This is a small prototype game I made to get a bit more acquainted with player feedback and game feel. 
+                        The gameplay is fairly simple and there's not a whole lot to do, but the game still feels great to play.
+                    </p>
+                </div>
+            </div>
+            <div class="divider"></div><!-- DIVIDER -->
+
+            <div class="flex-container"> <!-- Disconnected -->
+                <div class="flex-item flex-item-2 main">
+                    <h2>Disconnected</h2>
+                    <p>
+                        Disconnected is a game I designed for the game design class in school. The Idea is that you control two spheres which are connected to each other. 
+                        The player must complete levels to reach a cutting machine that will disconnect them.<br>
+                        In this project I focussed on, and learned about gameplay, player feedback, replayability and I tried my hand at some basic shaders.
+                    </p>
+                </div>
+                <div class="flex-item flex-item-2 aside">
+                    <img class="article-visual" src="Images/Disconnected/Disconnected_Demo.gif" alt="Disconnected">
+                </div>
+            </div>
+            <div class="divider"></div><!-- DIVIDER -->
+            
+            <div class="flex-container"> <!-- Level Drawer -->
+                <div class="flex-item flex-item-2 aside">
+                    <img class="article-visual" src="Images/Level_Drawer/Level_Drawer_Tool.gif" alt="Level Drawer" muted autoplay loop>
+                </div>
+                <div class="flex-item flex-item-2 main">
+                    <h2>Level Drawer</h2>
+                    <p>
+                        This is a small game I made with a couple of fun extra's. 
+                        One of the features I am proud of is the ability to import an Image to load it as a level in the game. <br>
+                        The pixels are turned into tiles and the tiles are then combined into longer rectangles to improve performance and gameplay.
+                    </p>
+                </div>
+            </div>
+            <div class="divider"></div><!-- DIVIDER -->
+
+            <div class="flex-container"> <!-- Hatching Shader -->
+                <div class="flex-item flex-item-2 main">
+                    <h2>Hatching Shader</h2>
+                    <p>
+                        For my Graduation work I decided to do research into a specific shader. 
+                        Cross hatching is an old drawing technique where shading is created by drawing parallel lines in different densities or thicknesses.<br>
+
+                        The topic of my research was to recreate this art style in 3D using a shader.<br>
+
+                        The end result is shown on the right, but if you want more details you can click the gif as well. 
+                    </p>
+                </div>
+                <div class="flex-item flex-item-2 aside">
+                    <img class="article-visual" src="Images/Hatching_Shader/Hatching_Shader_Table.gif" alt="Hatching Shader">
+                </div>
+            </div>
+            <div class="divider"></div><!-- DIVIDER -->
+
+            <div class="flex-container"> <!-- VR Cardgame Port -->
+                <div class="flex-item flex-item-2 aside">
+                    <img class="article-visual" src="Images/VR_Cardgame/VR_Cardgame_Solitaire.gif" alt="VR Cardgame Port" muted autoplay loop>
+                </div>
+                <div class="flex-item flex-item-2 main">
+                    <h2>VR Cardgame Port</h2>
+                    <p>
+                        For my internship I was given the opportunity to port an app that the company had created to an entirely new platform. The Meta Quest 2.<br>
+
+                        This was my first time developing for a VR device, and I am certainly pleased with how the game turned out.
+                    </p>
+                </div>
+            </div>
+            <div class="divider"></div><!-- DIVIDER -->
+
+            <div class="flex-container"> <!-- Telliehead -->
+                <div class="flex-item flex-item-2 main">
+                    <h2>Telliehead</h2>
+                    <p>
+                        This was a school project for our 2D class. The idea was that we design a character, and afterwards animate it so it could be used in an endless runner game. 
+                        Additionally I designed some assets to create a skin for the endless runner.<br>
+
+                        The 2D animation in particular came out well in this project.<br>
+
+                        A short video featuring my project can be found on our 
+                        <a href="https://www.digitalartsandentertainment.be/article/450/2D+for+Games+1%3A+Exam+Results+2021" style="color:whitesmoke">school website</a>.
+                    </p>
+                </div>
+                <div class="flex-item flex-item-2 aside">
+                    <img src="Images/Telliehead/Telliehead_Animation.gif" alt="Telliehead">
+                </div>
+            </div>
+            <div class="divider"></div><!-- DIVIDER -->
+
+            <div class="flex-container"> <!-- Stylized Airplane -->
+                <div class="flex-item flex-item-2 aside">
+                    <img class="article-visual" src="Images/Stylized_Airplane/Stylized_Airplane.png" alt="Stylized Airplane" muted autoplay loop>
+                </div>
+                <div class="flex-item flex-item-2 main">
+                    <h2>Stylized Airplane</h2>
+                    <p>
+                        This was also a school project in which the assignment was to recreate a WWII era airplane in a stylized art style.<br><br>
+
+                        The plane was uploaded to 
+                        <a href="https://sketchfab.com/3d-models/ww1-fokker-eiii-stylized-8dc2f27946234a178a7f1686f6d2dc07" style="color:whitesmoke">Sketchfab</a> 
+                        if you would like to take a closer look.
+                    </p>
+                </div>
+            </div>
+            <div class="divider"></div><!-- DIVIDER -->
+
+            <div class="flex-container"> <!-- Skully -->
+                <div class="flex-item flex-item-2 main">
+                    <h2>Skully</h2>
+                    <p>
+                        Skully is a Game I made with a couple of friends for a halloween Game jam. 
+                        I did a part of gameplay programming and some 3D asset design. 
+                        It's not the best game, but I feel like it was not too shabby for a game jam made in a just a couple of days.<br><br>
+
+                        You can try it out on <a href="https://vitalityvh.itch.io/skully" style="color: whitesmoke;">Itch.io</a> if you are curious.<br>
+
+                        <small>(credits to the friends: Vital van Hollebeke and Liam Boesmans)</small>
+                    </p>
+                </div>
+                <div class="flex-item flex-item-2 aside">
+                    <img src="Images/Skully/Skully_Logo.png" alt="Skully">
+                </div>
+            </div>            
         </section>
-        <footer class="footer-container">
+        <footer class="footer-container"> <!-- Footer -->
             <div class="flex-container">
                 <div class="flex-item">
                     <p>RUFUS STEELS</p>

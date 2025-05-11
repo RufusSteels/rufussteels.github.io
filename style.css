@@ -214,4 +214,12 @@ video {
     .overlay-home {
         font-size: 1.75em;
     }
+
+    .overlay-portfolio {
+        font-size: 1em;
+    }
+
+    .subtitle-portfolio {
+        font-size: 0.625em
+    }
 }
