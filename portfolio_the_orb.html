@@ -1,0 +1,108 @@
+<html>
+    <head>
+        <title>Rufus Steels - The Orb</title>
+        
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200"> 
+        <link rel="icon" type="image/png" href="Images/Common/Logo.png">
+
+        <meta charset="UTF-8">
+        <meta name="description" content="Rufus Steels - Portfolio Website">
+        <meta name="keywords" content="Portfolio, Game-Development, Gaming, Programming, Unity, CSharp, C++, C">
+        <meta name="author" content="Rufus Steels">
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    </head>
+    <body>
+        <header class="header-container"> <!-- Header -->
+            <div class="flex-container">
+                <div class="flex-item flex-item-3">
+                    <p class="title" ><a href="index.html">RUFUS STEELS</a></p>
+                </div>
+                <div class="flex-item flex-item-1">
+                    <a class="logo-container" href="index.html"><img class="logo right" type="image/png" src="Images/Common/Logo.png"></a>
+                </div>
+            </div>
+        </header>
+        <section class="nav-container"> <!-- Navigation Bar -->
+            <ul class="nav-bar">
+                <li><a class="nav-item" href="index.html">HOME</a></li>
+                <li><a class="nav-item" href="about.html">ABOUT</a></li>
+                <li><a class="nav-item current-page" href="portfolio.html">PORTFOLIO</a></li>
+                <li><a class="nav-item" href="skills.html">SKILLS</a></li>
+                <!-- <li><a class="nav-item" href="contact.html">CONTACT</a></li> -->
+            </ul>
+        </section>
+        <section class="page-container"> <!-- Page Content -->
+            <div class="flex-container">
+                <div class="flex-item flex-item-2 main">
+                    <p>
+                        The Orb is a project that has its basis more in my background of electronics than in my background as a game developer.<br>
+                        I've always been intrigued by cool gaming peripherals like the guitar hero guitar. 
+                        And I thought it would be a nice project to try make something similar myself.
+                    </p>
+                </div>
+                <div class="flex-item flex-item-2 aside">
+                    <img class="article-visual" src="Images/The_Orb/The_Orb.png" alt="The Orb">
+                </div>
+            </div>
+
+            <div class="flex-container">
+                <div class="flex-item flex-item-2 aside">
+                    <img class="article-visual" src="Images/The_Orb/The_Orb_Graphs.png" alt="Graphs">
+                </div>
+                <div class="flex-item flex-item-2 main">
+                    <p>
+                        It all started as a project to test a small gyroscope sensor I was planning on playing around with. 
+                        I was looking for a way to log the values that the sensor read and decided to make a simple logging program on my computer,
+                    </p>
+                </div>
+            </div>
+
+            <div class="flex-container">
+                <div class="flex-item flex-item-2 main">
+                    <p>
+                        But not much later I decided there were more fun ways of reading the sensor. 
+                        So took my sensor setup and wrote a small Serial monitor script in Unity. 
+                        This way I could pilot a cube through space using a very ugly object I had put together quickly.
+                    </p>
+                </div>
+                <div class="flex-item flex-item-2 aside">
+                    <img class="article-visual" src="Images/The_Orb/The_Orb_Proto_0.gif" alt="Proto 0">
+                </div>
+            </div>
+            
+            <div class="flex-container">
+                <div class="flex-item flex-item-2 aside">
+                    <img class="article-visual" src="Images/The_Orb/The_Orb_Proto_1.gif" alt="Proto 1">
+                </div>
+                <div class="flex-item flex-item-2 main">
+                    <p>
+                        So after a first test I made a PCB with some extra features like a battery charging module, 
+                        an MCU capable of using bluetooth to be able to get rid of the pesky cable coming out of the device, 
+                        some extra sensors with capacitive touch capability and of course, an RGB LED interface.<br>
+
+                        I also wanted it to be as small as possible to be able to fit into a sphere that is comfortable to hold in your hand 
+                        (6 cm in diameter seems to be pretty good).<br>
+
+                        Another thing was that I wanted the user to be able to tell which side was up, 
+                        so I loaded the sphere with some weights at the bottom. This way it always tends to move the right way up. 
+                        The heft also makes it feel a bit more like a quality product, which is a nice bonus, now it's just the ugly shell I need to fix...<br><br>
+
+                        The next steps in the project are making it more plug and play (using the HID interface) and adding Bluetooth support. 
+                        And as a final touch implementing RGB LED's of course. 
+                    </p>
+                </div>
+            </div>
+        </section>
+        <footer class="footer-container"> <!-- Footer -->
+            <div class="flex-container">
+                <div class="flex-item">
+                    <p>RUFUS STEELS</p>
+                </div>
+                <div class="flex-item">
+                    <p>rufussteels@gmail.com</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

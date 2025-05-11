@@ -1,0 +1,129 @@
+<html>
+    <head>
+        <title>Rufus Steels - Hatching Shader</title>
+        
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200"> 
+        <link rel="icon" type="image/png" href="Images/Common/Logo.png">
+
+        <meta charset="UTF-8">
+        <meta name="description" content="Rufus Steels - Portfolio Website">
+        <meta name="keywords" content="Portfolio, Game-Development, Gaming, Programming, Unity, CSharp, C++, C">
+        <meta name="author" content="Rufus Steels">
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    </head>
+    <body>
+        <header class="header-container"> <!-- Header -->
+            <div class="flex-container">
+                <div class="flex-item flex-item-3">
+                    <p class="title" ><a href="index.html">RUFUS STEELS</a></p>
+                </div>
+                <div class="flex-item flex-item-1">
+                    <a class="logo-container" href="index.html"><img class="logo right" type="image/png" src="Images/Common/Logo.png"></a>
+                </div>
+            </div>
+        </header>
+        <section class="nav-container"> <!-- Navigation Bar -->
+            <ul class="nav-bar">
+                <li><a class="nav-item" href="index.html">HOME</a></li>
+                <li><a class="nav-item" href="about.html">ABOUT</a></li>
+                <li><a class="nav-item current-page" href="portfolio.html">PORTFOLIO</a></li>
+                <li><a class="nav-item" href="skills.html">SKILLS</a></li>
+                <!-- <li><a class="nav-item" href="contact.html">CONTACT</a></li> -->
+            </ul>
+        </section>
+        <section class="page-container"> <!-- Page Content -->
+            <div class="flex-container">
+                <div class="flex-item flex-item-4 aside">
+                    <img class="article-visual" src="Images/Hatching_Shader/Hatching_Shader_Table.gif" alt="Hatched Table">
+                </div>
+            </div>
+            <div class="flex-container">
+                <div class="flex-item flex-item-4 main">
+                    <p>
+                        This is a shader that mimics the hatching art style. 
+                        The style was created along with the printing press, because there were only two values. Black and White. 
+                        To create shading the artist needed to draw parallel lines to create the illusion of grey.<br>
+
+                        When creating this shader I wanted to convey this in a way that was as accurate as possible, 
+                        so in the gif above the only colours you see are black and white..
+                    </p>
+                </div>
+            </div>
+
+            <div class="flex-container">
+                <div class="flex-item flex-item-1 aside">
+                    <img class="article-visual" src="Images/Hatching_Shader/Hatching_Shader_Capsule_Variations.gif" alt="Hatching Variation Demo">
+                </div>
+                <div class="flex-item flex-item-3 main">
+                    <p>
+                        Another one of my goals was that the shader was very easily tweakable.<br>
+
+                        By adding sliders and variables I made it possible to create a lot of different looking materials by just changing around some values.<br>
+
+                        one of these values that turned out to be very important was the 'frequency' variable. 
+                        This changed how many lines were drawn on an object, which made it possible to set an object  at a distance and still have it look nice.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="flex-container">
+                <div class="flex-item flex-item-2 main">
+                    <p>
+                        If you start researching hatching shaders you will notice that a large problem with these shaders is 
+                        that the direction of the lines never really seems to make sense except for when a hatching texture has been placed on the model correctly using UVs.<br>
+
+                        I wanted it to work without texturing. To do this I needed to find a way to store the direction the lines should follow into the mesh.<br>
+
+                        I wrote a Blender script that takes the direction of the bones of a rigged mesh and stores the direction in the vertices. 
+                        This direction can than easily be translated into the correct hatching direction.
+                    </p>
+                </div>
+                <div class="flex-item flex-item-2 aside">
+                    <img class="article-visual" src="Images/Hatching_Shader/Hatching_Shader_Comparison.gif" alt="Hands Side By Side">
+                </div>
+            </div>
+
+            <div class="flex-container">
+                <div class="flex-item flex-item-2 aside">
+                    <img class="article-visual" src="Images/Hatching_Shader/Hatching_Shader_Tour.gif" alt="Hatching Demo">
+                    <img class="article-visual" src="Images/Hatching_Shader/Hatching_Shader_Reference_McBess.jpg" alt="Reference Image By McBess">
+                </div>
+                <div class="flex-item flex-item-2 main">
+                    <p>
+                        I created a scene that I had based on a drawing of an artist known for using the  hatching art style. 
+                        The scene isn't quite complete, because there's a lot of stuff in there. But the idea is there.<br><br>
+                        
+                        The piece I used as reference is a piece by the Artist McBess.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="flex-container">
+                <div class="flex-item flex-item-2 main">
+                    <p>
+                        Of  course since  this was a graduation work, 
+                        I also documented all of my research in a paper which you can check out right here if you are just as interested in shaders as I am.<br>
+
+                        Documentation of the Blender tool and the calculations of the shader can all be found there.<br><br>
+                        
+                        <a href="#">Download Paper</a>
+                    </p>
+                </div>
+                <div class="flex-item flex-item-2 aside">
+                    <img class="article-visual" src="Images/Hatching_Shader/Hatching_Shader_Ghost.gif" alt="Hatched Ghosts">
+                </div>
+            </div>
+        </section>
+        <footer class="footer-container"> <!-- Footer -->
+            <div class="flex-container">
+                <div class="flex-item">
+                    <p>RUFUS STEELS</p>
+                </div>
+                <div class="flex-item">
+                    <p>rufussteels@gmail.com</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,104 @@
+<html>
+    <head>
+        <title>Rufus Steels - Disconnected</title>
+        
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200"> 
+        <link rel="icon" type="image/png" href="Images/Common/Logo.png">
+
+        <meta charset="UTF-8">
+        <meta name="description" content="Rufus Steels - Portfolio Website">
+        <meta name="keywords" content="Portfolio, Game-Development, Gaming, Programming, Unity, CSharp, C++, C">
+        <meta name="author" content="Rufus Steels">
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    </head>
+    <body>
+        <header class="header-container"> <!-- Header -->
+            <div class="flex-container">
+                <div class="flex-item flex-item-3">
+                    <p class="title" ><a href="index.html">RUFUS STEELS</a></p>
+                </div>
+                <div class="flex-item flex-item-1">
+                    <a class="logo-container" href="index.html"><img class="logo right" type="image/png" src="Images/Common/Logo.png"></a>
+                </div>
+            </div>
+        </header>
+        <section class="nav-container"> <!-- Navigation Bar -->
+            <ul class="nav-bar">
+                <li><a class="nav-item" href="index.html">HOME</a></li>
+                <li><a class="nav-item" href="about.html">ABOUT</a></li>
+                <li><a class="nav-item current-page" href="portfolio.html">PORTFOLIO</a></li>
+                <li><a class="nav-item" href="skills.html">SKILLS</a></li>
+                <!-- <li><a class="nav-item" href="contact.html">CONTACT</a></li> -->
+            </ul>
+        </section>
+        <section class="page-container"> <!-- Page Content -->
+            <div class="flex-container">
+                <div class="flex-item flex-item-4 aside">
+                    <img class="article-visual" src="Images/Disconnected/Disconnected_Demo.gif" alt="The Orb">
+                </div>
+            </div>
+            <div class="flex-container">
+                <div class="flex-item flex-item-4 main">
+                    <p>
+                        This game was a prototype for the game design class. 
+                        This was the result of a lot of iterating. 
+                        I made a handful of small prototypes after which I decided that the idea that lead to Disconnected was the most promising.<br>
+                        
+                        I polished this prototype enough to make something that I am proud to show on my portfolio.
+                    </p>
+                </div>
+            </div>
+
+            <div class="flex-container">
+                <div class="flex-item flex-item-2 aside">
+                    <div class="flex-container">
+                        <div class="flex-item flex-item-4">
+                            <img class="article-visual" src="Images/Disconnected/Disconnected_Pipeline_Final.jpg" alt="Sphere Final">
+                        </div>
+                    </div>
+                    <div class="flex-container">
+                        <div class="flex-item flex-item-2 cropped">
+                            <img class="article-visual" src="Images/Disconnected/Disconnected_Pipeline_HP_Model.jpg" alt="Sphere High Poly">
+                        </div>
+                        <div class="flex-item flex-item-2 cropped">
+                            <img class="article-visual" src="Images/Disconnected/Disconnected_Pipeline_LP_Model.jpg" alt="Spehe Low Poly">
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-item flex-item-2 main">
+                    <p>
+                        To create the props there was a pipeline I followed.<br>
+                        Firstly I made a High poly model, from which I derived a low poly model.<br>
+                        Then I baked the high poly mesh into a normal map that I used on the low poly model.<br>
+                        Then after texturing via substance painter I achieved this result.<br>
+                        Looking close up you definitely see the polies, but since in the game the distance from the camera to the objects is relatively large, 
+                        the low poly aesthetic is not visible.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="flex-container">
+                <div class="flex-item flex-item-2 main">
+                    <p>
+                        This was also the first time I experimented with shaders.<br>
+                        This is a simple one I made to represent Lava. This is something obvious enough so the player knows not to go in there.
+                    </p>
+                </div>
+                <div class="flex-item flex-item-2 aside">
+                    <img class="article-visual" src="Images/Disconnected/Disconnected_Lava_Shader.gif" alt="Lava Shader">
+                </div>
+            </div>
+        </section>
+        <footer class="footer-container"> <!-- Footer -->
+            <div class="flex-container">
+                <div class="flex-item">
+                    <p>RUFUS STEELS</p>
+                </div>
+                <div class="flex-item">
+                    <p>rufussteels@gmail.com</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

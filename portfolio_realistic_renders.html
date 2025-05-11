@@ -1,0 +1,161 @@
+<html>
+    <head>
+        <title>Rufus Steels - Realistic Renders</title>
+        
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200"> 
+        <link rel="icon" type="image/png" href="Images/Common/Logo.png">
+
+        <meta charset="UTF-8">
+        <meta name="description" content="Rufus Steels - Portfolio Website">
+        <meta name="keywords" content="Portfolio, Game-Development, Gaming, Programming, Unity, CSharp, C++, C">
+        <meta name="author" content="Rufus Steels">
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    </head>
+    <body>
+        <header class="header-container"> <!-- Header -->
+            <div class="flex-container">
+                <div class="flex-item flex-item-3">
+                    <p class="title" ><a href="index.html">RUFUS STEELS</a></p>
+                </div>
+                <div class="flex-item flex-item-1">
+                    <a class="logo-container" href="index.html"><img class="logo right" type="image/png" src="Images/Common/Logo.png"></a>
+                </div>
+            </div>
+        </header>
+        <section class="nav-container"> <!-- Navigation Bar -->
+            <ul class="nav-bar">
+                <li><a class="nav-item" href="index.html">HOME</a></li>
+                <li><a class="nav-item" href="about.html">ABOUT</a></li>
+                <li><a class="nav-item current-page" href="portfolio.html">PORTFOLIO</a></li>
+                <li><a class="nav-item" href="skills.html">SKILLS</a></li>
+                <!-- <li><a class="nav-item" href="contact.html">CONTACT</a></li> -->
+            </ul>
+        </section>
+        <section class="page-container"> <!-- Page Content -->
+            <div class="flex-container">
+                <div class="flex-item flex-item-2 aside">
+                    <img class="article-visual" src="Images/Realistic_Renders/Realistic_Renders_Model.png" alt="Blockout">
+                </div>
+                <div class="flex-item flex-item-2 main">
+                    <p>
+                        I have a friend who recently bought an apartment and is going to renovate. 
+                        For helping him make a choice on materials and colors I decided to try my hand at recreating the apartment in Unity. 
+                        I started by blocking out the basic shape of the apartment.
+                    </p>
+                </div>
+            </div>
+
+            <div class="flex-container">
+                <div class="flex-item flex-item-2 main">
+                    <p>
+                        Afterwards, when I had a simple scene to work with I started working on some shaders.<br>
+                        Because I wanted to be able to change as much as possible with as little effort as possible, 
+                        I decided to calculate everything in the shader itself, meaning I did not need to download or generate textures, 
+                        since the shaders would use built in noise textures and math to show a material.
+                    </p>
+                </div>
+                <div class="flex-item flex-item-2 aside">
+                    <img class="article-visual" src="Images/Realistic_Renders/Realistic_Renders_Wood.png" alt="Wood">
+                </div>
+            </div>
+            
+            <div class="flex-container">
+                <div class="flex-item flex-item-2 aside">
+                    <img class="article-visual" src="Images/Realistic_Renders/Realistic_Renders_01.png" alt="Baked Light">
+                </div>
+                <div class="flex-item flex-item-2 main">
+                    <p>
+                        After creating some shaders and placing them on the meshes I needed to have some nice lighting in the scene.<br>
+                        I used my prior knowledge and some researching skills to bake some lighting and tweak some settings until I was satisfied.
+                    </p>
+                </div>
+            </div>
+
+            <div class="flex-container">
+                <div class="flex-item flex-item-2 main">
+                    <p>
+                        Now I could play around with some sliders to change the look of the materials so my friend could make some informed decisions!
+                    </p>
+                </div>
+                <div class="flex-item flex-item-2 aside">
+                    <img class="article-visual" src="Images/Realistic_Renders/Realistic_Renders_Wood_Variations.gif" alt="Wood Variations">
+                </div>
+            </div>
+
+            <div class="flex-container">
+                <div class="flex-item flex-item-2 aside">
+                    <img class="article-visual" src="Images/Realistic_Renders/Realistic_Renders_10.png" alt="Office">
+                </div>
+                <div class="flex-item flex-item-2 main">
+                    <p>
+                        But I wasn't quite finished yet, the apartment is still looking kind of empty. And one way to change that: furniture!<br>
+                        There's still some extra props to be added though...
+                    </p>
+                </div>
+            </div>
+
+            <div class="flex-container">
+                <div class="flex-item flex-item-2 main">
+                    <p>
+                        And since I was in this deep already and wanted to have something as realistic as possible, 
+                        I also added some reflection probes to get some realistic looking reflections. 
+                    </p>
+                </div>
+                <div class="flex-item flex-item-2 aside">
+                    <img class="article-visual" src="Images/Realistic_Renders/Realistic_Renders_09.png" alt="Living Room">
+                </div>
+            </div>
+            
+            <div class="flex-container">
+                <div class="flex-item flex-item-2 aside">
+                    <img class="article-visual" src="Images/Realistic_Renders/Realistic_Renders_03.png" alt="Tile">
+                </div>
+                <div class="flex-item flex-item-2 main">
+                    <p>
+                        Now I know this isn't the most realistic looking render out there, 
+                        partially due to it being rendered in real time and partially because I still need some practise with the modular shaders. 
+                        But it is a good exercise. 
+                        And I am also not done with this project yet, 
+                        I would like to furnish it entirely, and create some more shaders, 
+                        or tweak some to make them look even better
+                    </p>
+                </div>
+            </div>
+
+            <div class="flex-container">
+                <div class="flex-item flex-item-2 main">
+                    <p>
+                        Every prop or object in the scene is created without external textures, 
+                        this is a nice exercise and an extra challenge for me to make objects look as real as possible and still be very modular.
+                    </p>
+                </div>
+                <div class="flex-item flex-item-2 aside">
+                    <img class="article-visual" src="Images/Realistic_Renders/Realistic_Renders_08.png" alt="Floor">
+                </div>
+            </div>
+            
+            <div class="flex-container">
+                <div class="flex-item flex-item-2 aside">
+                    <img class="article-visual" src="Images/Realistic_Renders/Realistic_Renders_Tour.gif" alt="Tour">
+                </div>
+                <div class="flex-item flex-item-2 main">
+                    <p>
+                        Since I am used to programming in Unity, 
+                        I also wrote a small first person player controller script (and a few others) to be able to walk around in the apartment.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <footer class="footer-container"> <!-- Footer -->
+            <div class="flex-container">
+                <div class="flex-item">
+                    <p>RUFUS STEELS</p>
+                </div>
+                <div class="flex-item">
+                    <p>rufussteels@gmail.com</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

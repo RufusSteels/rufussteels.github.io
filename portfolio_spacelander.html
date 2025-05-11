@@ -1,0 +1,159 @@
+<html>
+    <head>
+        <title>Rufus Steels - Spacelander</title>
+        
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200"> 
+        <link rel="icon" type="image/png" href="Images/Common/Logo.png">
+
+        <meta charset="UTF-8">
+        <meta name="description" content="Rufus Steels - Portfolio Website">
+        <meta name="keywords" content="Portfolio, Game-Development, Gaming, Programming, Unity, CSharp, C++, C">
+        <meta name="author" content="Rufus Steels">
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    </head>
+    <body>
+        <header class="header-container"> <!-- Header -->
+            <div class="flex-container">
+                <div class="flex-item flex-item-3">
+                    <p class="title" ><a href="index.html">RUFUS STEELS</a></p>
+                </div>
+                <div class="flex-item flex-item-1">
+                    <a class="logo-container" href="index.html"><img class="logo right" type="image/png" src="Images/Common/Logo.png"></a>
+                </div>
+            </div>
+        </header>
+        <section class="nav-container"> <!-- Navigation Bar -->
+            <ul class="nav-bar">
+                <li><a class="nav-item" href="index.html">HOME</a></li>
+                <li><a class="nav-item" href="about.html">ABOUT</a></li>
+                <li><a class="nav-item current-page" href="portfolio.html">PORTFOLIO</a></li>
+                <li><a class="nav-item" href="skills.html">SKILLS</a></li>
+                <!-- <li><a class="nav-item" href="contact.html">CONTACT</a></li> -->
+            </ul>
+        </section>
+        <section class="page-container"> <!-- Page Content -->
+            <div class="flex-container">
+                <div class="flex-item flex-item-2 main">
+                    <p>
+                        This is a game I started on when I hadn't been doing much game development for a while. 
+                        I wanted to "stay in shape" so I started brainstorming for new ideas.
+                    </p>
+                </div>
+                <div class="flex-item flex-item-2 aside">
+                    <img src="Images/Spacelander/Spacelander_Idea.png" alt="Bulb">
+                </div>
+            </div>
+
+            <div class="flex-container">
+                <div class="flex-item flex-item-2 aside">
+                    <img class="article-visual" src="Images/Spacelander/Spacelander_Shaders.jpg" alt="Gameplay image">
+                </div>
+                <div class="flex-item flex-item-2 main">
+                    <p>
+                        The game is loosely based on an idea I had a couple of years back, that I always felt had potential. 
+                        I just never really did anything with it. The Idea is that you are flying a spaceship 
+                        (that's not very easy to control) and with this spaceship you fly to different planets. 
+                        On these planets you can get out of your ship and discover some cool things I would figure out in the future.
+                    </p>
+                </div>
+            </div>
+
+            <div class="flex-container">
+                <div class="flex-item flex-item-2 main">
+                    <p>
+                        But everything in due time. let's start with the basics. Flying the ship.<br>
+                        This would be the main mechanic in the idea I had in mind, so I needed to figure out a way to make this engaging.
+                    </p>
+                </div>
+                <div class="flex-item flex-item-2 aside">
+                    <img class="article-visual" src="Images/Spacelander/Spacelander_Space.jpg" alt="Flight image">
+                </div>
+            </div>
+            
+            <div class="flex-container">
+                <div class="flex-item flex-item-2 aside">
+                    <img class="article-visual" src="Images/Spacelander/Spacelander_Squish.jpg" alt="Squished Rocket">
+                </div>
+                <div class="flex-item flex-item-2 main">
+                    <p>
+                        I looked into some ways of making games more fun to play. One important one is player feedback. <br>
+                        I added player feedback in a couple of different ways. 
+                        I added some stretching and squeezing to the rocket on the moment of lift off, building suspense until the actual moment the rocket shoots off the planet.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="flex-container">
+                <div class="flex-item flex-item-2 main">
+                    <p>
+                        The next part that had to be exciting was the liftoff itself. 
+                        This was done by almost making the rocket explode. 
+                        The impact is felt through screenshake and an explosion of particles.
+                    </p>
+                </div>
+                <div class="flex-item flex-item-2 aside">
+                    <img class="article-visual" src="Images/Spacelander/Spacelander_Takeoff.gif" alt="Takeoff">
+                </div>
+            </div>
+
+            <div class="flex-container">
+                <div class="flex-item flex-item-2 aside">
+                    <img class="article-visual" src="Images/Spacelander/Spacelander_Flight.gif" alt="In Flight">
+                </div>
+                <div class="flex-item flex-item-2 main">
+                    <p>
+                        The flying itself is quite relaxing with the starry parallax background swooping by.
+                    </p>
+                </div>
+            </div>
+
+            <div class="flex-container">
+                <div class="flex-item flex-item-2 main">
+                    <p>
+                        Another way to make the game be fun to play is to make it look a bit nicer. 
+                        So I put on my shader goggles again and started making some shaders, for the planets, but also the parallax background. 
+                        There's one extra one I have in mind that makes the sky be a different color depending on which planet you're on. 
+                        but I haven't gotten to that quite yet.
+                    </p>
+                </div>
+                <div class="flex-item flex-item-2 aside">
+                    <img class="article-visual" src="Images/Spacelander/Spacelander_Exit.jpg" alt="Pretty Planet">
+                </div>
+            </div>
+            
+            <div class="flex-container">
+                <div class="flex-item flex-item-2 aside">
+                    <img class="article-visual" src="Images/Spacelander/Spacelander_Exit.gif" alt="Exit the ship">
+                </div>
+                <div class="flex-item flex-item-2 main">
+                    <p>
+                        Now that some of the mechanics are in place, I also added the ability to make the astronaut exit the ship. 
+                        And to make sure that walking around wasn't too disorienting I did some tricks with the camera to make the planets rotate as the player moves across them.
+                    </p>
+                </div>
+            </div>
+
+            <div class="flex-container">
+                <div class="flex-item flex-item-2 main">
+                    <p>
+                        And of course, a final touch: Explosions.
+                    </p>
+                </div>
+                <div class="flex-item flex-item-2 aside">
+                    <img class="article-visual" src="Images/Spacelander/Spacelander_Explosion.gif" alt="Explosion">
+                </div>
+            </div>
+        </section>
+        <footer class="footer-container"> <!-- Footer -->
+            <div class="flex-container">
+                <div class="flex-item">
+                    <p>RUFUS STEELS</p>
+                </div>
+                <div class="flex-item">
+                    <p>rufussteels@gmail.com</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

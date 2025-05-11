@@ -18,6 +18,11 @@ video {
     display: block;
 }
 
+a {
+    color:rgb(0, 255, 220);
+    text-decoration: none;
+}
+
 /* TYPOGRAPHY */
 
 .title {
@@ -41,7 +46,7 @@ video {
     left:5%;
     top:2.5%;
     font-size: 5em;
-    color: rgb(32, 49, 47);
+    color: rgba(32, 49, 47, .6);
 }
 
 .overlay-portfolio {
@@ -147,6 +152,10 @@ video {
     margin: 0 10%;
 }
 
+.page-container .flex-container .flex-container {
+    margin: 0 -2.5%;
+}
+
 .footer-container .flex-container {
     flex-direction: column;
     padding-left: 2.5%;
@@ -222,4 +231,8 @@ video {
     .subtitle-portfolio {
         font-size: 0.625em
     }
+}
+
+.cropped {
+    object-fit: cover;
 }
