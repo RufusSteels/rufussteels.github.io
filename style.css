@@ -111,6 +111,13 @@ body {
 }
 
 @media (orientation:portrait) {
+    .header-container .flex-item-2 {
+        width:0;
+    }
+    .header-container .flex-item-2 {
+        width:45%;
+    }
+
     .page-container .flex-container {
         flex-direction:column;
         align-items: center;
