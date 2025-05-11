@@ -1,10 +1,7 @@
 body {
     background-image: linear-gradient(to right, darkslategray, rgb(83, 107, 107), darkslategray);
     
-    margin-left: 0%;
-    margin-right: 0%;
-    margin-top: 0%;
-    margin-bottom: 0%;
+    margin:0;
 
     font-family: "Poppins", Arial, Helvetica, sans-serif;
     color: whitesmoke;
@@ -56,7 +53,8 @@ div {
 }
 
 .home-overlay{
-    font-size: 100;
+    /* font-size: 8em; */
+    font-size: 100px;
     /* color: rgb(100, 220, 200); */
     position: absolute;
     top: 75%;
