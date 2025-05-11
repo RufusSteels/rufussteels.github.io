@@ -33,6 +33,7 @@ video {
 
 .logo {
     width: 100px;
+    float: right;
 }
 
 .overlay-home {
@@ -74,7 +75,7 @@ video {
 
 .footer-container {
     margin:0;
-    padding:.5em 0;
+    padding:0;
     width: 100%;
     background-image: linear-gradient(rgb(32, 48, 48), rgb(28, 40, 40), rgb(32, 48, 48));
 }
@@ -118,6 +119,15 @@ video {
 
 .page-container .flex-container {
     margin: 0 10%;
+}
+
+.footer-container .flex-container {
+    flex-direction: column;
+    padding-left: 2.5%;
+}
+
+.footer-container p {
+    margin:.25em;
 }
 
 .flex-item{
@@ -176,16 +186,6 @@ video {
     }
 
     .overlay-home {
-        font-size: 1.5em;
+        font-size: 1.75em;
     }
-}
-
-.left {
-    float: left;
-    text-align: left;
-}
-
-.right {
-    float: right;
-    text-align: right;
 }
