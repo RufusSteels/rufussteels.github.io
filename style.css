@@ -39,7 +39,7 @@ video {
     position: absolute;
     left:5%;
     top:2.5%;
-    font-size: 400%;
+    font-size: 5em;
     color: rgb(32, 49, 47);
 }
 
@@ -173,6 +173,10 @@ video {
 
     .nav-item {
         margin: 0;
+    }
+
+    .overlay-home {
+        font-size: 2em;
     }
 }
 
