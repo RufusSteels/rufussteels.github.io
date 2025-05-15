@@ -23,6 +23,10 @@ window.onload = () => {
             setTimeout(() => {
                 window.location.href = e.target.href;
             }, 300);
+
+            setTimeout(() => {
+                transition_element_leave.classList.remove("is-active");
+            }, 1000);
         });
     }
 }
