@@ -3,6 +3,7 @@
         <title>Rufus Steels - Portfolio</title>
         
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="transitions.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200"> 
         <link rel="icon" type="image/png" href="Images/Common/Logo.png">
 
@@ -13,6 +14,9 @@
         <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
     </head>
     <body>
+        <div class="transition-load is-active"><img src="Images/Common/Transition.png"></div>
+        <div class="transition-leave"><img src="Images/Common/Transition.png"></div>
+
         <header class="header-container"> <!-- Header -->
             <div class="flex-container">
                 <div class="flex-item flex-item-3">
@@ -32,7 +36,7 @@
                 <!-- <li><a class="nav-item" href="contact.html">CONTACT</a></li> -->
             </ul>
         </section>
-        <section class="video-container"> <!-- Portfolio Banner Video -->
+        <section class="video-container portfolio" style="height: 40vh;"> <!-- Portfolio Banner Video -->
             <div class="overlay-portfolio">
                 <h1>Portfolio</h1>
                 <p class="subtitle-portfolio">
@@ -41,7 +45,7 @@
                     of the projects that I am personally most fond of.
                 </p>
             </div>
-            <video src="Videos/Forgotten_Technology.mp4" style="height: 50%; object-fit: cover;" muted autoplay loop>
+            <video src="Videos/Forgotten_Technology.mp4" class="portfolio" muted autoplay loop>
         </section>
         <div class="header-divider"></div> <!-- DIVIDER -->
         <section class="page-container"> <!-- Page Content -->
@@ -249,5 +253,7 @@
                 </div>
             </div>
         </footer>
+
+        <script src="transition.js"></script>
     </body>
 </html>
