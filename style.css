@@ -1,11 +1,35 @@
+:root {
+    --page: #213b3b;
+    --header: #4b6a6a;
+    --footer: #102020;
+    --banner: #102020;
+    --background: #2f4f4f;
+    --transition: #081010;
+
+    --border: #102020;
+
+    --accent: #00ffdc;
+    --accent-faded: #00ffcc00;
+    --accent-selected: #00ffcc;
+
+    --text-main: #f5f5f5;
+    --text-side: #00ffdc;
+    --text-overlay: #20312f99;
+}
+
 body {
-    background-image: linear-gradient(to right, darkslategray, rgb(83, 107, 107), darkslategray);
+    /* background-image: linear-gradient(to right, #2f4f4f, rgb(83, 107, 107), darkslategray); */
+    background-color: var(--background);
+
+    display:flex;
+    flex-direction: column;
     
+    min-height: 100vh;
     margin:0;
     padding:0;
 
     font-family: "Poppins", Arial, Helvetica, sans-serif;
-    color:whitesmoke;
+    color:var(--text-main);
 }
 
 img {
@@ -19,7 +43,7 @@ video {
 }
 
 a {
-    color:rgb(0, 255, 220);
+    color:var(--accent);
     text-decoration: none;
 }
 
@@ -32,7 +56,7 @@ a {
 }
 
 .title a {
-    color: rgb(0, 255, 220);
+    color:val(--accent);
     text-decoration: none;
 }
 
@@ -46,7 +70,7 @@ a {
     left:5%;
     top:2.5%;
     font-size: 5em;
-    color: rgba(32, 49, 47, .6);
+    color: var(--text-overlay);
 }
 
 .overlay-portfolio {
@@ -54,7 +78,7 @@ a {
     left:55%;
     top:2.5%;
     font-size: 2em;
-    color: whitesmoke;
+    color: var(--text-main);
 }
 
 .subtitle-portfolio {
@@ -65,7 +89,8 @@ a {
 
 .header-container {
     width:100%;
-    background-image: linear-gradient(rgb(75, 106, 106), rgb(100, 122, 122));
+    /* background-image: linear-gradient(#4b6a6a, rgb(100, 122, 122)); */
+    background-color: var(--header);
 
     /* border:2px solid rgb(255, 0, 128); */
 }
@@ -74,32 +99,41 @@ a {
     position: relative;
 }
 
-.video-container-portfolio {
-    overflow: hidden;
-    max-height:40%; 
-    margin-top:.5em; 
-    margin-bottom:1.5em;
+.video-container.portfolio {
+    display:flex;
+}
+
+video.portfolio {
+    object-fit: cover; 
+    object-position:0 -16vw;
 }
 
 .nav-container {
     margin:0;
     padding:.5em 0;
     width: 100%;
-    background-image: linear-gradient(rgb(32, 48, 48), rgb(28, 40, 40), rgb(32, 48, 48));
+
+    /* background-image: linear-gradient(rgb(32, 48, 48), rgb(28, 40, 40), rgb(32, 48, 48)); */
+    background-color: var(--banner);
 }
 
 .header-divider {
     margin:0;
     padding:1.25em 0;
     width: 100%;
-    background-image: linear-gradient(rgb(32, 48, 48), rgb(28, 40, 40), rgb(32, 48, 48));
+    /* background-image: linear-gradient(rgb(32, 48, 48), rgb(28, 40, 40), rgb(32, 48, 48)); */
+    background-color: var(--banner);
 }
 
 .page-container {
     margin:0 auto;
     width:90%;
     max-width:980px;
-    background-image: linear-gradient(to right, hsl(180, 29%, 18%), hsl(180, 20%, 24%), hsl(180, 25%, 19%));
+
+    flex-grow: 1;;
+
+    /* background-image: linear-gradient(to right, #213b3b, hsl(180, 20%, 24%), hsl(180, 25%, 19%)); */
+    background-color: var(--page);
 
     /* border:2px solid cyan; */
 }
@@ -108,7 +142,9 @@ a {
     margin:0;
     padding:0;
     width: 100%;
-    background-image: linear-gradient(rgb(32, 48, 48), rgb(28, 40, 40), rgb(32, 48, 48));
+
+    /* background-image: linear-gradient(rgb(32, 48, 48), rgb(28, 40, 40), rgb(32, 48, 48)); */
+    background-color: var(--footer);
 }
 
 .nav-bar {
@@ -119,7 +155,7 @@ a {
 }
 
 .nav-item {
-    color: whitesmoke;
+    color: var(--text-main);
     text-decoration: none;
     margin-right: 2em;
     transition-duration: .2s;
@@ -128,17 +164,17 @@ a {
 }
 
 .nav-item:hover {
-    color:rgb(0, 255, 220);
+    color:var(--accent);
 }
 
 .current-page {
-    color:rgb(0, 255, 220);
+    color:var(--accent);
 }
 
 .article-visual {
     margin: 2em 0;
     border-radius: 1em;
-    border: 1px solid #102020;
+    border: 1px solid var(--border);
 }
 
 .skill-visual {
@@ -192,7 +228,7 @@ a {
 
 .divider {
     margin: 20px 0;
-    background-image: linear-gradient(to right, rgba(0, 255, 220, 0), rgb(0, 255, 220), rgba(0, 255, 220, 0));
+    background-image: linear-gradient(to right, var(--accent-faded), var(--accent), var(--accent-faded));
 
     width: 100%; 
     height: 1px;
@@ -235,6 +271,11 @@ a {
 
     .subtitle-portfolio {
         font-size: 0.625em
+    }
+
+    video.portfolio {
+        object-fit: cover; 
+        object-position:center;
     }
 }
 
