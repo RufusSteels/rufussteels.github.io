@@ -1,0 +1,81 @@
+
+/* Option 1 - Original*/
+/* :root {
+    --page: #213b3b;
+    --header: #4b6a6a;
+    --footer: #102020;
+    --banner: #102020;
+    --background: #2f4f4f;
+    --transition: #081010;
+    --transition: #102020;
+
+    --border: #102020;
+
+    --accent: #00ffdc;
+    --accent-faded: #00ffcc00;
+    --accent-selected: #00ffcc;
+
+    --text-main: #f5f5f5;
+    --text-side: #00ffdc;
+    --text-overlay: #20312f99;
+} */
+
+/* Option 2 - Cyan Dark*/
+:root {
+    --page: #232727;
+    --header: #2b3131;
+    --background: #2b3131;
+    --footer: #1b1f1f;
+    --banner: #1b1f1f;
+    --transition: #1b1f1f;
+
+    --border: #1b1f1f;
+
+    --accent: #00ffdc;
+    --accent-faded: #00ffcc00;
+    --accent-selected: #00ffcc;
+
+    --text-main: #f5f5f5;
+    --text-side: #00ffdc;
+    --text-overlay: #20312f99;
+}
+
+/* Option 3 - Cyan Light*/
+/* :root {
+    --page: #cad4d4;
+    --header: #7f8686;
+    --background: #cad4d4;
+    --footer: #949c9c;
+    --banner: #949c9c;
+    --transition: #949c9c;
+
+    --border: #b2b8b8;
+
+    --accent: #09ceb7;
+    --accent-faded: #00ffcc00;
+    --accent-selected: #00ffcc;
+
+    --text-main: #363738;
+    --text-side: #00ffdc;
+    --text-overlay: #20312f99;
+} */
+
+/* Option 4 - Orange*/
+/* :root {
+    --page: #232727;
+    --header: #2b3131;
+    --background: #2b3131;
+    --footer: #1b1f1f;
+    --banner: #1b1f1f;
+    --transition: #1b1f1f;
+
+    --border: #1b1f1f;
+
+    --accent: #e2602d;
+    --accent-faded: #e2602d00;
+    --accent-selected: #e2602d;
+
+    --text-main: #f5f5f5;
+    --text-side: #e2602d;
+    --text-overlay: #20312f99;
+} */
