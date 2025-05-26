@@ -1,0 +1,70 @@
+<html>
+  <head>
+    <title>Rufus Steels - Disconnected</title>
+
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../../palette.css">
+    <link rel="stylesheet" href="../../transitions.css">
+    <link rel="stylesheet" href="../Unity_Player_Data/unity_player.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200"> 
+    <link rel="icon" type="image/png" href="../../Images/Common/Logo.png">
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Rufus Steels - Portfolio Website">
+    <meta name="keywords" content="Portfolio, Game-Development, Gaming, Programming, Unity, CSharp, C++, C, Rufus Steels, Rufus, Steels">
+    <meta name="author" content="Rufus Steels">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="transition-load is-active"><img src="../../Images/Common/Transition.png"></div>
+    <div class="transition-leave"><img src="../../Images/Common/Transition.png"></div>
+
+    <header class="header-container"> <!-- Header -->
+      <div class="flex-container">
+        <div class="flex-item flex-item-3">
+          <p class="title" ><a href="../../index.html">RUFUS STEELS</a></p>
+        </div>
+        <div class="flex-item flex-item-1">
+          <div class="logo-container" href="../../index.html"><img class="logo right" type="image/png" src="../../Images/Common/Logo.png"></div>
+        </div>
+      </div>
+    </header>
+    <section class="nav-container"> <!-- Navigation Bar -->
+      <ul class="nav-bar">
+        <li><a class="nav-item" href="../../index.html">HOME</a></li>
+        <li><a class="nav-item" href="../../about.html">ABOUT</a></li>
+        <li><a class="nav-item current-page" href="../../portfolio.html">PORTFOLIO</a></li>
+        <li><a class="nav-item" href="../../skills.html">SKILLS</a></li>
+        <!-- <li><a class="nav-item" href="contact.html">CONTACT</a></li> -->
+      </ul>
+    </section>
+    <section class="page-container"> <!-- Page -->
+      <div id="unity-container" class="unity-desktop">
+        <canvas id="unity-canvas" tabindex="-1"></canvas>
+        <div id="unity-loading-bar">
+          <div id="unity-logo"></div>
+          <div id="unity-progress-bar-empty">
+            <div id="unity-progress-bar-full"></div>
+          </div>
+        </div>
+        <div id="unity-footer">
+          <div id="unity-fullscreen-button"></div>
+        </div>
+      </div>
+    </section>
+    
+    <footer class="footer-container"> <!-- Footer -->
+      <div class="flex-container">
+        <div class="flex-item">
+          <p>RUFUS STEELS</p>
+        </div>
+        <div class="flex-item">
+          <p>rufussteels@gmail.com</p>
+        </div>
+      </div>
+    </footer>
+    
+    <script src="Disconnected_player.js"></script>
+    <script src="../../transition.js"></script>
+  </body>
+</html>

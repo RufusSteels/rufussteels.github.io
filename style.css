@@ -215,6 +215,10 @@ video.portfolio {
     height: 1px;
 }
 
+.pc-only {
+    display:none;
+}
+
 @media (orientation:portrait) {
     .page-container .flex-container {
         flex-direction:column;
@@ -257,6 +261,12 @@ video.portfolio {
     video.portfolio {
         object-fit: cover; 
         object-position:center;
+    }
+}
+
+@media (pointer:fine) {
+    .pc-only {
+        display:inline;
     }
 }
 
